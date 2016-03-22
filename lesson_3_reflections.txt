@@ -28,3 +28,10 @@ I think it's good to have a copy of the last known state of the remote stored lo
 
 I had an experience to collaborate w/o GitHub. Before making some changes (for files, that were uploaded to FTP), I asked my colleague to close this file not to delete my changes, when he decided to save the file after me. It was aweful.
 I think another way to collaborate is to use e-mails. You add the message into the e-mail name (same as commit message), and send what changes do you want to make. Let's imagine, that there is a person who is responsible for adding these changes. So he opens files and add changes. If there is a conflict between 2 collaborators, he asks them what to change. It's a long process.
+
+---
+
+**When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?**
+
+I'd want to make changes in a separate branch when I want to make another version of program, or I'm not sure that the program will work after this changes, or I want to add some additional functionality etc. The benefits of this method are: you can easily go to the previous version. Also different people can work at different branches and then merge them.
+The benefit of using just master branch is that you won't need to merge anything, because all of your changes will be updated in the master branch.
