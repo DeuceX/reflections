@@ -2,5 +2,22 @@
 
 When I'm going to work from different computers or to work together with other people.
 
+---
 
-*UPDATE locally
+**Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?**
+
+You might want it when you want to chose which files to replace or delete manually. Because you think, that automatically updating can break the program or some bugs may appear.
+
+---
+
+**Describe the differences between forks, clones, and branches. When would you use one instead of another?**
+
+Fork is just a copy of GitHub repository that exists on your GitHub repository with all commits and branches. I'd use it when I need to change the existing project, but the owner of that repository doesn't want anyone to change anything.
+Clone is just a copy of GitHub repository that you save to your computer locally. I'd use it when I decide to change some files, so I will clone repository to my computer and change what I need to change.
+Branch is a part of repository when you decide to add a new feature or to fix a bug etc. I'd use it when I decide to make a new version of program/fix some bugs/change functionality etc
+
+---
+
+**What is the benefit of having a copy of the last known state of the remote stored locally?**
+
+I think it's good to have a copy of the last known state of the remote stored locally because you can check if your changes create a merge conflict or not. 
